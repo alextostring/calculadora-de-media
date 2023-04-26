@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #f8b184;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;    
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px red;
+    width: 400px;
+    height: 550px
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+}
+
+.page-title {
+    margin: 0;
+    margin-top: 50px;
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.page-subtitle {
+    font-size: 13pt;
+    margin-bottom: 20px;
+}
+
+.label-title{
+    font-size:20px ;
+    font-weight: 700;
+}
+
+.name{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.input-name {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255) ;
+    border-radius: 10px;
+    background-color: rgb(253, 150, 167);
+}
+
+.input-notas {
+
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(255, 142, 160);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    width: 40px;
+}
+
+::placeholder {
+    color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    font-size: 15px;
+    padding: 5px;
+    padding-right: 20px ;
+    padding-left: 20px;
+    background-color: rgb(255, 146, 164);
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 5px red;
+    background-color: rgb(255, 83, 112);
+    color: white;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.cats {
+    width: 300px;
+}

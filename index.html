@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link rel="shortcut icon" href="img/Graphicloads-100-Flat-2-Calculator.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container glass">
+        <h2 class="page-title">Calculadora de Média</h2>
+        <p class="page-subtitle">Veja qual a sua média de nota de todas as provas!</p>
+        <label class="label-title">
+            Nome do Aluno: <br>
+            <input type="text" id="name" class="input-name" placeholder="               Digite aqui">
+        </label>
+        <div>
+            <label class="label-title">
+                Notas de cada Bimestre : <br>
+                <input type="number" name="" id="nota1" class="input-notas" placeholder=" 1º" required>
+                <input type="number" name="" id="nota2" class="input-notas" placeholder=" 2º" required>
+                <input type="number" name="" id="nota3" class="input-notas" placeholder=" 3º" required>
+                <input type="number" name="" id="nota4" class="input-notas" placeholder=" 4º" required>
+                <br>
+                <button onclick="exibirResultado()">Enviar</button>
+                <br>
+                <p id="resultado" name="resultado"></p>
+            </label>
+            <img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/31207.png" alt="gatos" class="cats">
+            
+        </div>
+    </div>
+    
+</body>
+</html>
